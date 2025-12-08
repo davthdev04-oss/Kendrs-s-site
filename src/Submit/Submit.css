@@ -1,0 +1,39 @@
+/* ---------- Main Container ---------- */
+.submit-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 2rem;      
+    box-sizing: border-box;
+}
+
+/* ---------- Message Box ---------- */
+.sub-message {
+    font-size: 1.2rem;
+    color: #555;
+    position: relative;
+    right: 20px;
+    top: 4rem
+}
+
+/* ---------- Submit Button / Link ---------- */
+.back-home {
+    display: inline-block;
+    margin: 2rem auto 0;       
+    font-size: 1rem;
+    padding: 0.7rem 1.4rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    cursor: pointer;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+    color: black;
+}
+
+.back-home:hover {
+    border-color: #000;
+    transform: scale(1.03);
+}

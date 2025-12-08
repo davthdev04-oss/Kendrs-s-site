@@ -1,0 +1,60 @@
+html {
+  overflow-y: scroll;
+}
+
+main{
+  max-width: 1152px;
+  margin: 0 auto;
+  height: 100%;
+}
+body{
+  display: grid;
+  background-color: white;
+}
+
+.Header{
+  max-width: 1152px;
+  margin:  0 auto;
+  position: relative;
+  top:-13px;
+}
+
+.nav-bar {
+  display: inline-block;
+  height: 100px;
+  width: 1152px;
+  text-align: start; /* aligns links left */
+  line-height: 100px; /* vertically centers text by default */
+  position: relative;
+}
+
+.nav-link {
+  display: inline-block;
+  vertical-align: bottom; /* moves inline-block children to the bottom */
+  margin-right: 20px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 17px;
+  color: #d6d6d6;
+  position: relative;
+  top: 18px;
+}
+
+.nav-link:hover{
+  color: #191919;
+}
+
+.nav-link.active {
+  color: black;
+  font-weight: bold;
+}
+
+.Line{
+  display:flex;
+  height: 5px;
+  background-color: black;
+  border-radius: 10px;
+}
+/*.................................Footer..............*/
+
+

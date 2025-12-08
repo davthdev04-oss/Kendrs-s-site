@@ -1,0 +1,150 @@
+/* ------------------- Page Wrapper ------------------- */
+.about-page {
+    margin-top: 0;
+    padding: 2rem 1rem;
+}
+
+/* ------------------- About Section ------------------- */
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abouttag {
+    font-family: Segoe UI;
+    font-size: 30px;
+    margin: 2rem 3.5rem 1rem 0;
+    letter-spacing: 0.5px;
+}
+
+.aboutme {
+    text-align: center;
+    line-height: 1.6;
+    font-family: Segoe UI;
+    margin: 1rem auto 0 auto;
+    width: 70%;
+    color: #999999;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+/* ------------------- Background Section ------------------- */
+.background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+    margin: 4rem auto;
+}
+
+.BckGrd {
+    font-family: Segoe UI;
+    font-size: 18px;
+    text-align: left;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.Para,
+.ParaExtra {
+    line-height: 1.6;
+    font-family: Segoe UI;
+    text-align: left;
+    width: 90%;
+    color: #999999;
+    font-size: 18px;
+}
+
+.ParaExtra {
+    margin-top: 2rem;
+}
+
+/* ------------------- Skills / Tables ------------------- */
+.table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 6rem auto;
+    max-width: 900px;
+    width: 100%;
+    gap: 3rem;
+    font-family: Segoe UI;
+}
+
+.Qty-list,
+.principles-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-left: 4rem;
+}
+
+.Qty-container,
+.principles-container {
+    flex: 1;
+    
+}
+
+.Qty {
+    font-weight: 600;
+    margin-left: 6.5rem;
+}
+
+.principles {
+    font-family: Segoe UI;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    margin-left: 6.5rem;
+}
+
+.list-item {
+    color: #999999;
+    font-size: 18px;
+}
+
+/* Remove bullets, add custom dash */
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "- ";
+}
+
+/* ------------------- Tools Section ------------------- */
+.tools-align {
+    margin: 4rem auto;
+    padding: 1rem;
+    max-width: 600px;
+}
+
+.tools {
+    font-family: Segoe UI;
+    text-align: center;
+}
+
+/* ------------------- Images ------------------- */
+.img-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 3rem auto;
+    max-width: 900px;
+}
+
+.LBFC {
+    font-family: Segoe UI;
+    font-size: 1rem;
+    color: black;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.divider{
+    width: 100%;
+    padding-top: 20px ;
+
+}
