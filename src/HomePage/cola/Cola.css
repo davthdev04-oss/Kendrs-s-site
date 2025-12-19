@@ -1,0 +1,111 @@
+/* ===== Page Container ===== */
+.page-container {
+}
+
+/* ===== Page Header ===== */
+.page-headercola {
+padding-top:4%;
+padding-bottom: 5%;
+}
+
+.page-headercola h1 {
+  text-align: center;
+}
+
+.page-headercola p {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+/* ===== Project Section ===== */
+.project-section {
+}
+
+/* ===== Project Images ===== */
+.project-section img {
+
+}
+
+/* ===== Project Text ===== */
+.project-text {
+}
+
+.project-textcola h1, .project-textmobility h1, .project-textnews h1, .project-sectiondigitial h1, .project-sectiondigitia h1 {
+  font-size: 2.5rem;
+  text-align: left;
+  width: 80%;
+  margin: 3% auto;
+  padding: 1%;
+}
+
+.project-textcola p, .project-textnews p, .project-textmobility p, .project-sectiondigitial p{
+  font-size: 20px;
+  padding-bottom: 2%;
+}
+
+
+.project-textnews h2 {
+  font-size: 25px;
+}
+.mainbannercoc {
+  width: 100%;
+}
+
+.imgctnconnect {
+  display: grid;
+  grid-template-columns: 1fr 0.7fr 0.9fr;
+  gap: 0.7rem;
+}
+
+.c401k {
+  width: 100%;
+}
+
+.mios{
+width: 100%;
+
+}
+.mobility {
+    display: grid;
+    grid-template-columns: 1.9fr 1fr;
+}
+
+.newsctn {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.news {
+  width: 100%;
+}
+
+.sinag {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-sinage h1 {
+  border-style: dashed;
+  
+}
+
+.coladivi {
+  width: 100%
+}
+
+.news1{
+  width: 100%;
+}
+
+.news2{
+  width: 100%;
+}
+
+.news3{
+  width: 100%;
+}
+
+.news4{
+  width: 100%;
+}

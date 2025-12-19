@@ -1,46 +1,66 @@
-html {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
   overflow-y: scroll;
+  scrollbar-gutter: stable;
 }
 
-main{
-  max-width: 1152px;
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* ---------------- MAIN PAGE LAYOUT ---------------- */
+main {
+  max-width: 1400px;
+  width: 95%;
   margin: 0 auto;
-  height: 100%;
-}
-body{
-  display: grid;
-  background-color: white;
+  padding: 0 1rem;
+  background: white;
 }
 
-.Header{
-  max-width: 1152px;
-  margin:  0 auto;
-  position: relative;
-  top:-13px;
+/* ---------------- HEADER ---------------- */
+.Header {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem 0;
+
 }
 
+/* NAVIGATION BAR */
 .nav-bar {
-  display: inline-block;
-  height: 100px;
-  width: 1152px;
-  text-align: start; /* aligns links left */
-  line-height: 100px; /* vertically centers text by default */
-  position: relative;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 0;
 }
+
 
 .nav-link {
-  display: inline-block;
-  vertical-align: bottom; /* moves inline-block children to the bottom */
-  margin-right: 20px;
   text-decoration: none;
-  font-family: sans-serif;
-  font-size: 17px;
+  font-size: 1.3rem;
   color: #d6d6d6;
-  position: relative;
-  top: 18px;
+  padding: 4%;
 }
 
-.nav-link:hover{
+.nav-links {
+  display: flex;
+}
+
+.nav-link:hover {
   color: #191919;
 }
 
@@ -49,12 +69,59 @@ body{
   font-weight: bold;
 }
 
-.Line{
-  display:flex;
+.line-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.Line {
+  width: 100%;
   height: 5px;
   background-color: black;
   border-radius: 10px;
 }
-/*.................................Footer..............*/
 
 
+.logokendra {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) translateY(-55px);
+  width: 100px;
+  height: auto;
+  z-index: 10;
+  background-color: transparent;
+}
+
+.hamburger {
+  display: none;
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  /* Show hamburger */
+  .hamburger {
+    display: block;
+  }
+
+  /* Hide links by default */
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: white;
+    flex-direction: column;
+    width: 200px;
+    padding: 1rem;
+  }
+
+  /* Show links ONLY when open */
+  .nav-links.open {
+    display: flex;
+  }
+}

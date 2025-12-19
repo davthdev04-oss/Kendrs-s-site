@@ -1,0 +1,514 @@
+/* ---------- Global Cleanup ---------- */
+
+.Truist-homepage {
+}
+:root {
+  --gray: #999999;
+  --purple: rgb(114, 86, 156);
+}
+
+span{
+  color:  var(--purple);
+}
+
+
+.truistheader{
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.oneview{
+  margin: 0 auto;
+}
+
+.oneviewabout{
+  max-width: 700px;
+  margin: 0 auto;
+  padding-top: 3rem;
+  text-align: center;
+  line-height: 1.6rem;
+  font-family: ftnk, sans-serif;
+  color: var(--gray);
+  font-size: 16px;
+}
+
+.trupic{
+  padding-top: 4rem;
+}
+
+.trupicctn{
+  display: flex;
+  justify-content: center;
+}
+
+.truistpicpage{
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.problem{
+  padding-top: 1rem;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.problemstatement{
+  font-size: 28px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.kickoffstate{
+  color: var(--purple);
+}
+
+.Distinguishing{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  padding-top: 15%;
+}
+
+.alerttypes{
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.Distinguishing h1  {
+  font-size: 20px;
+  color:#999999
+}
+
+
+.kickofftay p {
+  margin: 0;
+  color: #999999;
+}
+.kickofftay h1{
+  color: #999999;
+  margin-bottom: 2%;
+}
+
+.alerttypesh2{
+  font-size: 20px;
+  text-align: left;
+  color: var(--gray);
+}
+
+
+.alertimg{
+  display: flex;
+  align-items: center;
+}
+
+.process {
+  padding-top:8%;
+}
+.processctn{
+
+}
+
+.summary{
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+  gap: 5%;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.summary h1 {
+  font-size: 20px;
+  color: #999999;
+  font-weight: bolder;
+}
+
+.summary p, .alerttypes p {
+  color: #999999
+
+}
+
+.riseabove{
+  display: flex;
+  align-items: center;
+}
+
+.heartbeat{
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  line-height: 3.2rem;
+}
+
+.summary-wrap{
+  padding-top: 10%;
+}
+
+.researchp{
+  text-align: left;
+  width:70%;
+  margin: 0 auto;
+  color: black;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.research{
+  padding: 8rem;
+}
+
+.research-ctn{
+  padding:5%;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.systemcoctn{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 6%;
+}
+
+.aboutSyCo{
+  font-size: 20px;
+}
+
+.syscoph{
+  font-size: 18px;
+  color: var(--gray);
+}
+
+.syscop{
+  color: var(--gray);
+  line-height: 1.4rem;
+}
+
+.firstdraft{
+  padding-bottom: 4%;
+}
+
+.picdraftctn {
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  
+}
+
+.firstdraft h3{
+  text-align: center;
+  font-size: 1.8rem;
+  padding-bottom: 4%;
+}
+.firstdraftpic{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.designthinking{
+  display: flex;
+  padding-top: 8%;
+  justify-content: center;
+}
+
+.designthinkingpic{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.userflow{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  width: 70%;
+}
+
+.userflow p, li {
+  color: #999999;
+  line-height: 2.2rem;
+  }
+
+  ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+  .userflow h1 {
+    font-size: 1.2rem;
+    color: black
+  }
+
+  .userflowheader {
+    color: black;
+  }
+
+.mobilepush{
+  padding: 2%;
+  font-size: 14px;
+  color: var(--gray);
+}
+
+.mpnlist{
+  line-height: 1.5rem;
+}
+
+.mpninput {
+  
+}
+
+.pivotpoint{
+  padding-top: 10%;
+  padding-bottom: 3%;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.pivotp{
+  color: var(--gray);
+}
+
+.week1wrap{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4%;
+  padding: 2rem;
+}
+
+.week1h{
+  font-size: 18px;
+  color: var(--gray);
+  width: 70%;
+}
+
+.week1cp,
+.week1p{
+  color: var(--gray);
+}
+
+.next{
+  text-align: center;
+  color: black;
+}
+
+.nextp{
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
+
+.focuspictures{
+  display: grid;
+  grid-template-columns: 0.6fr 1fr 1fr ;
+  gap: 1rem;
+}
+
+
+.videosctn {
+  padding-top: 8%;
+}
+.video {
+  width: 100%;
+}
+
+.textmessage{
+  width: 100%;
+}
+
+.quickapprove{
+  width: 100%;
+}
+
+.toast{
+  width: 100%;
+}
+
+.videosec{
+
+}
+
+.brek-card {
+  display: flex;
+  padding-top: 3%;
+  gap: 2%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.breakdown-truist h1, .cardnoti h1{
+  font-size: 20px;
+}
+
+.breakdown-truist p, .cardnoti p{
+  font-size: 18px;
+  color: #999999;
+}
+
+.cardnoti {
+  width: 50%;
+}
+
+.breakdown-truist {
+  width: 60%;
+}
+
+.reasearch{
+  font-size: 28px;
+  text-align: center;
+}
+
+
+.airtable{
+  padding-top: 10%;
+}
+
+.airtablepics{
+  display:grid;
+  grid-template-columns: 2fr 0.925fr;
+  padding-top: 5%;
+  gap: 2rem;
+}
+
+.two{
+  width: 100%;
+}
+
+.one{
+  width: 100%;
+}
+
+.stdfj{
+  display: flex;
+  margin-top: 5%;
+  padding: 1rem;
+}
+
+.saythinkfeeldo{
+  width: 600px;
+}
+
+.maps{
+  text-align: center;
+}
+
+
+.empa {
+  text-align: center;
+  color: #999999;
+}
+
+
+.mapsctn{
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.discoveryctn p {
+    color: #999999;
+    text-align: center;
+  
+}
+
+.discoveryctn h1 {
+  text-align: center;  
+}
+
+.discovery{
+  margin-top: 5%;
+}
+
+.behaviours{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 2%;
+  padding-top: 5%;
+}
+
+.bvaleha,
+.recctext{
+  padding: 2%;
+  color: var(--gray);
+}
+
+
+.insightctn {
+  display: flex;
+  justify-content: center;
+}
+
+.insights {
+  width: 100%;
+}
+
+
+.nxttexth1{
+  text-align: center;
+  padding-top: 1%;
+  font-size: 20px;
+}
+
+.nextextp{
+  text-align: center;
+  color: var(--gray);
+  margin-top: 1%;
+}
+
+.nextstep{
+  text-align: center;
+}
+.divi {
+  padding-top: 10%;
+  width: 100%
+}
+
+@media (max-width: 768px) {
+  .Distinguishing,
+  .week1wrap,
+  .focuspictures,
+  .videosec,
+  .airtablepics,
+  .behaviours,
+  .mapsctn,
+  .stdfj {
+    grid-template-columns: 1fr !important;
+    display: grid !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .problem,
+  .pivotpoint,
+  .userflow,
+  .aboutSyCo,
+  .systemcoctn,
+  .researchp,
+  .nextp,
+  .summary,
+  .two,
+  .one,
+  .saythinkfeeldo,
+  .trupicctn,
+  .firstdraftpic {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+}
+
+
+.processpic{
+  width: 100%;
+  
+}
+
+.Howdoestheuserpic {
+  width: 100%;
+}
+
+.alerttaskpic {
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}

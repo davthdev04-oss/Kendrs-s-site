@@ -1,5 +1,12 @@
-import kendraLogo from "./kendra-logo.jpg"
+import kendraLogo from "./kendra-logo.jpg";
+import "./kendra-logo.css";
 
-export default function KendraLogo() {
-  return <img src={kendraLogo} alt="Kendra Logo" style={{ height: "80px", position: "absolute", right: "550px", top: "50px"}} />;
+export default function KendraLogo({ className = "" }) {
+  return (
+    <img
+      src={kendraLogo}
+      alt="Kendra Logo"
+      className={`kendralogo ${className}`}
+    />
+  );
 }

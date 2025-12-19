@@ -1,3 +1,4 @@
+import  {useNavigate} from 'react-router-dom'
 import { HomePageTxt } from "../SiteText/SiteText.jsx";
 import { KendraStokes } from "../SiteText/SiteText.jsx"
 import "./HomePage.css";
@@ -11,42 +12,85 @@ import diamonds from "./homepage-pictures/diamonds.jpg"
 
 
 export default function HomePage() {
+        
+    const navigate = useNavigate();
+    
   return (
-    <main className="homepage">
-     <header>
+    <div className="homepage">
+     <header className="homepage-head">
        <h1 className="title">{HomePageTxt.title}</h1>
        <p className="sub">{KendraStokes.subtitle}</p>
      </header>
 
-      <div className="truistwrapper">
-        <section className="truist-container">
-         <img src={truist} alt="Truist One View Notification Discovery" className="divpic-picture" />
-         <div className="info">
-          <h1 className="noti">Truist One View Notification Discovery 2023</h1>
-          <p className="aboutnoti">Truist Commercial Banking</p>
-         </div>
+      <div className="truist-wrapper">
+        <section className="truist-container" onClick={() => navigate("/truist")}>
+          <img src={truist} alt="Truist One View Notification Discovery" className="truist-picture" />
+          <div className="info">
+            <h1 className="noti">Truist One View Notification Discovery <div className="date">2023</div></h1>
+            <p className="aboutnoti">Truist Commercial Banking</p>
+          </div>
         </section>
       </div>
 
-      <div className="capsnogapswrapper">
-        <section className="capsnogaps-container">
-         <img src={capnogaps} alt="Truist One View Notification Discovery" className="truist-picture" />
-         <div className="info">
-          <h1 className="noti">Truist One View Notification Discovery 2023</h1>
-          <p className="aboutnoti">Truist Commercial Banking</p>
-         </div>
-        </section>
-      </div>
+    <div className="ford-wrapper">
+      <section className="ford-container" onClick={() => navigate("/ford")}>
+        <div  className="info">
+        <h1 className="noti">Reimagine Homepage & Vehicle Finder <div className="date">2023</div></h1>
+        <p className="aboutnoti">Ford Motor Company</p>
+        </div>
+        <img src={ford} className="ford-picture"  />
+      </section>
+    </div>
 
-      <div className="homepage-wrapper">
-        <section className="homepage-container">
-         <img src={capnogaps} alt="Truist One View Notification Discovery" className="truist-picture" />
-         <div className="info">
-          <h1 className="noti">Truist One View Notification Discovery 2023</h1>
-          <p className="aboutnoti">Truist Commercial Banking</p>
-         </div>
-        </section>
-      </div>
-    </main>
+    <div className="capnogaps-wrapper">
+      <section className="capnogaps-container" onClick={() => navigate("/caps")}>
+        <img src={capnogaps} alt="Truist One View Notification Discovery" className="capnogaps-picture" />
+        <div className="info">
+          <h1 className="noti">Caps No Gaps - Freelance Project <div className="date">2022</div></h1>
+          <p className="aboutnoti">Freelance Project</p>
+        </div>
+      </section>
+    </div>
+
+     <div className="homedeportspring-wrapper">
+      <section className="homedeportspring-container" onClick={() => navigate("/hdspring")}>
+        <div  className="info">
+        <h1 className="noti">Major Event Homepage<div className="date">2022</div></h1>
+        <p className="aboutnoti">The Home Depot</p>
+        </div>
+        <img src={homedeportspring} className="ford-picture"  />
+      </section>
+    </div>
+
+    <div className="proofofconcept-wrapper">
+      <section className="proofofconcept-container" onClick={() =>navigate("/concept")}>
+        <img src={proofofconcept} alt="Truist One View Notification Discovery" className="proofofconcept-picture" />
+        <div className="info">
+          <h1 className="noti">Proof of Concept Projects <div className="date">2018</div></h1>
+          <p className="aboutnoti">The Home Depot</p>
+        </div>
+      </section>
+    </div>
+
+    <div className="diamonds-wrapper">
+      <section className="diamonds-container" onClick={() => navigate("/diamonds")}>
+        <div  className="info">
+        <h1 className="noti">Freelance Projects<div className="date">2018</div></h1>
+        <p className="aboutnoti">Freelance</p>
+        </div>
+        <img src={diamonds} className="ford-picture"  />
+      </section>
+    </div>
+
+    <div className="cocacola-wrapper">
+      <section className="cocacola-container" onClick={() => navigate("/cola")}>
+        <img src={cocacola} alt="Truist One View Notification Discovery" className="cocacola-picture" />
+        <div className="info">
+          <h1 className="noti">Internal Projects<div className="date">2014</div></h1>
+          <p className="aboutnoti">The Coca-Cola Company</p>
+        </div>
+      </section>
+    </div>
+    </div>
   );
 }

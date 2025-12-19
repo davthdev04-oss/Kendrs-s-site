@@ -28,7 +28,9 @@ export default function About() {
 
     <section className="table">
           <div className="Qty-container">
+        
           <h3 className="Qty">What I bring to the table</h3>
+        
           
       <ul className="Qty-list">
         <li className="list-item">Brainstorming</li>

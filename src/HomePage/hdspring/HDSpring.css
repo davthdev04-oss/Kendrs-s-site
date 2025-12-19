@@ -1,0 +1,220 @@
+/* ---------------- SPRING SECTION ---------------- */
+.springheader {
+    padding-top: 6%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.springh1 {
+    font-size: 2rem;
+}
+
+.springp {
+    color: #999999;
+}
+
+.springpic {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.headerpic {
+    width: 100%;
+}
+
+.spring {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.springfiday {
+    color: #999999;
+    text-align: center;
+}
+
+.launched {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+}
+
+.visit {
+  width: 100%;
+}
+
+.visitctn {
+  display: grid;
+  align-items: center;
+}
+
+.launc2019p {
+  line-height: 2rem;
+}
+
+
+/* ---------------- END CAP SECTION ---------------- */
+.endcapctn {
+    padding-top: 5%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.digital,
+.discounts {
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.discountp {
+    color: #999999;
+}
+
+/* ---------------- GUEST SECTION ---------------- */
+.guesth1 {
+    font-size: 2.2rem;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.guestp {
+    width: 75%;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.h2019pp {
+    padding-top: 4%;
+    color: #999999;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.guesthomepage,
+.guesthome {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.guesthome {
+    text-align: left;
+    padding-bottom: 4%;
+}
+
+/* ---------------- THREE ISSUES ---------------- */
+.threeissues {
+    margin-top: 6%;
+    color: #999999;
+}
+
+.threeissues h1 {
+    width: 70%; 
+    font-size: 22px;
+    margin: 0 auto;
+    padding-bottom: 1%;
+}
+
+.threeissues p {
+ width: 70%; 
+ margin: 0 auto;
+ line-height: 2rem;
+}
+
+/* ---------------- CONCEPTS / IDEAS ---------------- */
+.concepts {
+    padding-top: 4%;
+    display: grid;
+    grid-template-columns: 0.8fr 0.9fr 0.991fr;
+    height: fit-content;
+}
+
+.concepta {
+    width: 100%;
+}
+
+.ideas {
+    text-align: center;
+}
+
+.ideasac {
+    padding: 5% 0 4% 0;
+}
+
+.tier1 {
+    text-align: center;
+}
+
+.personalized span {
+    color: orange;
+  
+}
+
+.personalized {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1rem;
+    text-align: center;
+    text-wrap: inherit;
+}
+
+.outperformed,
+.adress {
+    text-align: left;
+}
+
+.guesthomepps {
+  text-align: left;
+  line-height: 1.7rem;
+  padding-bottom: 4%;
+}
+
+/* ---------------- BLACK FRIDAY / FRIDAY SECTION ---------------- */
+.blackfridaypic {
+    padding-top: 7%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.fridaypic {
+    width: 100%;
+    height: auto;
+}
+
+.keytips {
+    padding-top: 10%;
+}
+
+.planfriday {
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.plapic2,.plapic1 {
+  width: 100%;
+}
+
+.reflect {
+  
+}
+
+.reflection {
+  font-size: 1.5rem;
+}
+
+.reflectp {
+  line-height: 2rem;
+}
+
+.divi {
+  padding-top: 10%;
+  width: 100%
+}

@@ -6,7 +6,7 @@ export default function Contactme() {
   const navigate = useNavigate();
 
   return (
-    <main className="contact-page">
+    <main className="contactme-page">
       <section>
         <h1 className="contact">Contact</h1>
         <p className="connect">Let’s connect. I’d love to hear from you.</p>

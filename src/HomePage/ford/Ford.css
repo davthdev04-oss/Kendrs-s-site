@@ -1,0 +1,183 @@
+.reimage {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.focus{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    line-height: rem;
+    color: #999999;
+    font-size: 18px;
+    padding-bottom: 5%;
+}
+
+.fordbanner{
+    width: 100%;
+}
+
+
+.homeage {
+  padding-top:7%;
+}
+.homepageh1{
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.hompage2{
+    text-align: center;
+
+}
+
+.hompagep{
+    text-align: center;
+    width: 80%;
+    margin:  0 auto;
+    line-height: 1.5;
+}
+
+.fordpicwrap{
+    display: grid;
+    grid-template-columns: 1.035fr 0.33fr;
+    padding-top: 6%;
+}
+
+.ford2pic{
+    width: 100%;
+    height: auto;
+}
+
+.ford1pic{
+    width: 100%;
+    height: auto;
+}
+
+.vechiclefinder{
+    padding-top: 5%;
+}
+
+.findetitle{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.findertitleh2{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.findertitlep1{
+    text-align: left;
+    color: #999999;
+    font-size: 18px;
+    width:80%;
+    margin: 0 auto;
+}
+
+.findertitlep2{
+    color: #999999;
+    margin-top: 7%;
+    font-size: 18px;
+    margin: 0 auto;
+    padding-top: 3%;
+    width: 100%;
+}
+
+.concept{
+    
+}
+
+
+.conceptpics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 5%;
+  margin: 0 auto;
+  /* REMOVE transform: scale(.9); — this distorts images */
+}
+
+
+.concept2,
+.customize,
+.conceptford,
+.mustag {
+  height: 350px;
+  width: auto;     
+  object-fit: cover; 
+}
+
+
+.concept2 img,
+.customize img,
+.conceptford img,
+.mustag img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #000;
+}
+
+
+.legal{
+    font-size: 22px;
+    color:#999999;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.nearctn{
+    display: flex;
+    justify-content: center;
+}
+
+.nearyou2{
+    
+}
+
+.nearyou1pic{
+    width: 100%
+}
+
+.nearyou2pic {
+    width: 100%;
+  
+}
+
+.divi {
+  padding-top: 10%;
+  width: 100%
+}
+
+@media (max-width: 768px) {
+
+  .fordbanner,
+  .ford1pic,
+  .ford2pic,
+  .concept2,
+  .customize,
+  .conceptford,
+  .mustag
+  .nearyou2,
+  .nearyou {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .fordpicwrap {
+    flex-direction: row !important;
+    align-items: center;
+  }
+}   
+

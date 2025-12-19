@@ -1,0 +1,223 @@
+/* ================= UTILITIES ================= */
+
+.w-full {
+  width: 100%;
+  display: block;
+}
+
+/* ================= HEADER ================= */
+
+.page-header {
+  text-align: center;
+  padding-top:4%;
+  padding-bottom: 3%;
+}
+
+.page-header h1 {
+  font-size: 1.8rem;
+
+ 
+}
+
+.page-header p {
+  max-width: 640px;
+  margin: 0 auto;
+  color: #666;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+/* ================= PROJECT SECTION ================= */
+
+.project-section {
+  margin-bottom: 2rem;
+}
+
+.project-section h2 {
+  font-size: 2.5rem;
+  margin: 3rem auto 1.25rem;
+  width: 80%;
+}
+.project-section h3 {
+  font-size: 1.7rem;
+  color:black;
+  width: 80%;
+  margin: 0 auto 1rem;
+  font-weight: bold;
+  padding-bottom: 2%;
+}
+
+.project-section p {
+  width: 80%;
+  margin: 0 auto 1.75rem;
+  line-height: 1.7;
+  color: #444;
+}
+
+
+.project-section2 {
+  padding-bottom: 4%;  
+}
+
+
+.project-section2 h2{
+  font-size: 2.2rem;
+  padding-top: 5%;
+}
+
+
+.project-section2 h3{
+  font-size: 1.5rem;
+  padding-top: 2%;
+  width: 80%;
+}
+
+.project-section2 p {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 2%;
+  line-height: 1.5rem;
+}
+
+/* ================= TEXT VARIANTS ================= */
+
+.online {
+  width: 80%;
+  margin: 0 auto 1.25rem;
+  text-align: left;
+}
+
+.ponline {
+  width: 100%;
+}
+
+.q3online {
+  margin: 0 auto;
+}
+
+.pend {
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+}
+
+/* ================= PHOTO GRID ================= */
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin: 3rem 0;
+}
+
+.photo-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.discount {
+  width: 100%;
+}
+
+/* ================= PAINT GRID ================= */
+
+.photo-gridpaint {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.25rem;
+  margin-top: 4rem;
+}
+
+.gridpaint {
+  width: 100%;
+}
+
+.project3h2 {
+  width: 80%;
+  margin: 3rem auto 2rem;
+  font-size: 1.3rem;
+}
+
+/* ================= LISTS ================= */
+
+.project-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 2rem auto 0;
+  width: 80%;
+  text-align: center;
+}
+
+.project-section li {
+  margin-bottom: 0.75rem;
+  color: #444;
+}
+
+.abtpaintctn {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.abtpaintctn li {
+  line-height: 1.6;
+}
+
+/* ================= HIGHLIGHT ================= */
+
+.highlight {
+  margin: 3.5rem auto 0;
+  padding: 1.5rem 1.75rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.spacer{
+  padding-bottom: 5%;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+  .page-header {
+    margin-bottom: 4rem;
+  }
+
+  .page-header h1 {
+    font-size: 2rem;
+  }
+
+  .project-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .project-section h2,
+  .project-section h3,
+  .project-section p,
+  .online,
+  .project-section ul {
+    width: 100%;
+  }
+
+  .photo-gridpaint {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.divi {
+  padding-top: 10%;
+  width: 100%
+}
+
+.concept-divi {
+  margin-top: 3.5%;
+   width: 100%
+}
+
+.concept-span {
+  color: orange;
+}

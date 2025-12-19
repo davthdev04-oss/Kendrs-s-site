@@ -1,0 +1,81 @@
+.project2 p {
+   color: #999999; 
+   padding: 3%;
+   width: 80%;
+   margin: 0 auto;
+}
+
+.project2-textdia h2{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.dialist {
+  color: #999999;
+  padding:4%
+}
+
+.project-text {
+    padding-top: 5%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.headerpicdia {
+  width: 100%;
+}
+
+.windows {
+    width: 80%; 
+}
+
+.coach {
+  width: 100%;
+}
+
+.project-imagewindows {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.dialist {
+  text-align: center;
+  line-height: 1.8rem;
+}
+.diamonds {
+  width: 100%;
+}
+
+.coach {
+  width: 100%;
+}
+
+.divi-diamonds{
+  padding-top: 2%;
+  width: 100%
+}
+
+.diamondstty {
+
+}
+
+.diamondstty h2, .project2win h2, .project2coach h2 {
+  padding-top: 4%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.diamondstty p, .project2win p, .project2coach p  {
+  width: 70%;
+  text-align: left;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  padding-bottom: 4%;
+  
+}
+
+.project2win h2 {
+  
+}
