@@ -3,7 +3,7 @@ import headerpicdia from "../homepage-pictures/diamonds.jpg"
 import windows from "./windows.jpg"
 import coach from "./coach.jpg"
 import diamonds from "./diamonds.jpg"
-import divi from "../truist/divider.jpg"
+import divi from "../Truist/divider.jpg"
 import ClickableImage from "../../assets/components/ClickableImage.jsx"
 
 

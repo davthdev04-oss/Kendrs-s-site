@@ -8,7 +8,7 @@ import mustag from "./mustag.jpg"
 import customize from "./customize.jpg"
 import matchnearyou from "./matchnearyou.jpg"
 import matchnearyou1 from "./matchnearyou1.jpg"
-import divi from "../truist/divider.jpg"
+import divi from "../Truist/divider.jpg"
 import ClickableImage from "../../assets/components/ClickableImage.jsx"
 
 

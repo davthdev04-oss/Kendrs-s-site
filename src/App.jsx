@@ -6,13 +6,13 @@ import HomePage from "./Homepage/HomePage.jsx"
 import KendraLogo from "./assets/Components/Kendra-logo.jpg"
 import "./assets/components/kendra-logo.css";
 import Submit from "./Submit/Submit.jsx"
-import Truist from "./Homepage/truist/Truist.jsx"
-import Ford from "./Homepage/ford/Ford.jsx"
+import Truist from "./Homepage/Truist/Truist.jsx"
+import Ford from "./Homepage/Ford/Ford.jsx"
 import Caps from "./Homepage/Caps/Caps.jsx"
-import HDSpring from "./Homepage/major-event/HDSpring.jsx"
-import Concept from "./Homepage/proof-of-concept/Concept.jsx"
-import Diamons from "./Homepage/freelance/Diamonds.jsx"
-import Cola from "./Homepage/internal-projects/Cola.jsx"
+import HDSpring from "./Homepage/Major-event/HDSpring.jsx"
+import Concept from "./Homepage/Proof-of-concept/Concept.jsx"
+import Diamons from "./Homepage/Freelance/Diamonds.jsx"
+import Cola from "./Homepage/Internal-projects/Cola.jsx"
 import { useLocation } from "react-router-dom";
 import BackToTop from "./assets/Components/BackToTop.jsx";
 import "./assets/Components/backtotop.css";

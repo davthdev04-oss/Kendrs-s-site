@@ -11,7 +11,7 @@ import meeting from"./meeting.jpg"
 import meeting2 from"./meeting-2.jpg"
 import redcross from"./redcross.jpg"
 import transpo from"./transpo.jpg"
-import divi from "../truist/divider.jpg"
+import divi from "../Truist/divider.jpg"
 import ClickableImage from "../../assets/components/ClickableImage.jsx"
 
 

@@ -8,7 +8,7 @@ import bedroom from "./bedroom.jpg"
 import onegal from "./onegal.jpg"
 import specifications from "./specifications.jpg"
 import text from "./text.jpg"
-import divi from "../truist/divider.jpg"
+import divi from "../Truist/divider.jpg"
 import ClickableImage from "../../assets/components/ClickableImage.jsx"
 
 

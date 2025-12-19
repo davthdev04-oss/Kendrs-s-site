@@ -8,7 +8,7 @@ import blackfriday from "./blackfridaynow.jpg"
 import dewalt from "./dewalt.jpg"
 import sod from "./scotts.jpg"
 import visits from "./visits.jpg"
-import divi from "../truist/divider.jpg"
+import divi from "../Truist/divider.jpg"
 import ClickableImage from "../../assets/components/ClickableImage.jsx"
 
 
