@@ -1,18 +1,18 @@
 import { createBrowserRouter, RouterProvider, Outlet, NavLink } from "react-router-dom";
-import About from "./about/About.jsx";
-import Contactme from "./contact/Contactme.jsx"
+import About from "./About/About.jsx";
+import Contactme from "./Contact/Contactme.jsx"
 import "./App.css"
-import HomePage from "./homePage/HomePage.jsx"
+import HomePage from "./Homepage/HomePage.jsx"
 import KendraLogo from "./assets/Components/Kendra-logo.jpg"
 import "./assets/components/kendra-logo.css";
 import Submit from "./Submit/Submit.jsx"
-import Truist from "./homePage/truist/Truist.jsx"
-import Ford from "./homePage/ford/Ford.jsx"
-import Caps from "./homePage/caps/Caps.jsx"
-import HDSpring from "./homePage/major-event/HDSpring.jsx"
-import Concept from "./homepage/proof-of-concept/Concept.jsx"
-import Diamons from "./homepage/freelance/Diamonds.jsx"
-import Cola from "./homePage/internal-projects/Cola.jsx"
+import Truist from "./Homepage/truist/Truist.jsx"
+import Ford from "./Homepage/ford/Ford.jsx"
+import Caps from "./Homepage/Caps/Caps.jsx"
+import HDSpring from "./Homepage/major-event/HDSpring.jsx"
+import Concept from "./Homepage/proof-of-concept/Concept.jsx"
+import Diamons from "./Homepage/freelance/Diamonds.jsx"
+import Cola from "./Homepage/internal-projects/Cola.jsx"
 import { useLocation } from "react-router-dom";
 import BackToTop from "./assets/Components/BackToTop.jsx";
 import "./assets/Components/backtotop.css";
