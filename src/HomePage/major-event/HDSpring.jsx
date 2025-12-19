@@ -9,6 +9,7 @@ import dewalt from "./dewalt.jpg"
 import sod from "./scotts.jpg"
 import visits from "./visits.jpg"
 import divi from "../truist/divider.jpg"
+import ClickableImage from "../../assets/components/ClickableImage.jsx"
 
 
 
@@ -24,7 +25,7 @@ export default function HDSpring() {
         
 
         <div className="springpic">
-            <img src={headerpic} className="headerpic" />
+            <ClickableImage src={headerpic} alt="header pic" />
         </div>  
 <img src={divi} className="divi" />
         <section className="endcapctn">
@@ -36,7 +37,7 @@ export default function HDSpring() {
 
         <section className="blackfriday">
             <div className="springpic">
-            <img src={spring} className="spring"/>
+            <ClickableImage src={spring} alt="spring deals mobile" />
             </div>
             <p className="springfiday">Design Sprint</p>
             <p className="springfiday">Iterative Design Process</p>
@@ -50,7 +51,7 @@ export default function HDSpring() {
                 <p className="launc2019p">The Digital Endcap had 615K visits and $8.68M in revenue over Black Friday and Cyber Savings. Customers responded positively to being able to see recommended product deals in a wide array of categories. Here are some metrics and findings on the digital endcap’s performance on the homepage.</p>
             </div>
             <div className="visitctn">
-                <img src={visits} className="visit"/>
+                <ClickableImage src={visits} alt="performance" />
             </div>
         </section>
 <img src={divi} className="divi" />
@@ -69,9 +70,9 @@ export default function HDSpring() {
 
         <section className="springpics"> 
             <div className="concepts">
-                <img src={concepta} className="concepta"/>
-                <img src={conceptb} className="concepta"/>
-                <img src={conceptc} className="concepta"/>
+                <ClickableImage src={concepta} alt="concept A" />
+                <ClickableImage src={conceptb} alt="concept B" />
+                <ClickableImage src={conceptc} alt="Cconcept C" />
             </div>
         </section>
             <section className="ideasac">
@@ -100,7 +101,7 @@ export default function HDSpring() {
             </section>
 
             <section className="blackfridaypic">
-                <img src={blackfriday} alt="" className="fridaypic" />
+                <ClickableImage src={blackfriday} alt="black friday deals" />
             </section>
 
             <section className="keytips">
@@ -112,8 +113,8 @@ export default function HDSpring() {
             </section>
 
             <section className="planfriday">    
-                <img src={dewalt} className="plapic1" />
-                <img src={sod} className="plapic2" /> 
+                <ClickableImage src={dewalt} alt="dewalt drill set" />
+                <ClickableImage src={sod} alt="sod" />
             </section>
 
             <section className="reflect">

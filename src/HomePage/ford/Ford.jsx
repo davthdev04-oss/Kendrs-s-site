@@ -9,6 +9,10 @@ import customize from "./customize.jpg"
 import matchnearyou from "./matchnearyou.jpg"
 import matchnearyou1 from "./matchnearyou1.jpg"
 import divi from "../truist/divider.jpg"
+import ClickableImage from "../../assets/components/ClickableImage.jsx"
+
+
+
 
 export default function Ford() {
 
@@ -17,7 +21,7 @@ export default function Ford() {
                 <section className="fordhead">
                     <h1 className="reimage">Reimagine Homepage & Vehicle Finder</h1>
                     <p className="focus">Ford Reimagine focuses on getting the website ready for buying electric cars online. Here are two projects I helped with.</p>
-                    <img src={ford} className="fordbanner"/>
+                    <ClickableImage src={ford} alt="Ford banner" />
                 </section>
 <img src={divi} className="divi" />
                 <section className="homeage">
@@ -29,10 +33,10 @@ export default function Ford() {
                 <section className="fordpics">
                   <div className="fordpicwrap">
                     <div className="ford2">
-                       <img src={ford2} className="ford2pic"/>
+                       <ClickableImage src={ford2} alt="Ford mobile homepage" />
                     </div>
                     <div className="ford1">
-                       <img src={ford1} className="ford1pic"/>
+                       <ClickableImage src={ford1} alt="Ford desktop homepage" />
                     </div>
                   </div>
                 </section>
@@ -49,10 +53,10 @@ export default function Ford() {
 
                 <section className="concept">
                     <div className="conceptpics">
-                        <img src={concept2} className="concept2"/>
-                        <img src={customize} className="customize"/>
-                        <img src={conceptford} className="conceptford"/>
-                        <img src={mustag} className="mustag"/>
+                        <ClickableImage src={concept2} alt="concept" />
+                        <ClickableImage src={customize} alt="concpt live" />
+                        <ClickableImage src={conceptford} alt="concept 360" />
+                        <ClickableImage src={mustag} alt="concept 360 live" />
 
                     </div>
                 </section>
@@ -62,14 +66,14 @@ export default function Ford() {
                     <p className="legal">Due to legal constraints, dealer prices cannot be displayed together. To bypass this, we provide a link to view the pricing, and the card flips over to reveal the price. Once we have the engagement data, we may persuade the lawyers that this is necessary for the customers.</p>
                   <div className="nearctn">
                     <div className="nearyou1">
-                        <img src={matchnearyou1} className="nearyou"/>
+                        <ClickableImage src={matchnearyou1} alt="find matches near you" />
                     </div>
                     <div className="nearyou2">
-                        <img src={matchnearyou} className="nearyou" />
+                        <ClickableImage src={matchnearyou} alt="find matches near you" />
                     </div>
                    </div>  
                 </section>
-    < img src={divi} className="divi" />            
+    < img src={divi} className="divi" />        
         </main> 
     )
 }

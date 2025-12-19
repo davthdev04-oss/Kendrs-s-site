@@ -1,6 +1,6 @@
 import  {useNavigate} from 'react-router-dom'
-import { HomePageTxt } from "../SiteText/SiteText.jsx";
-import { KendraStokes } from "../SiteText/SiteText.jsx"
+import { HomePageTxt } from "../sitetext/SiteText.jsx";
+import { KendraStokes } from "../sitetext/SiteText.jsx"
 import "./HomePage.css";
 import truist from "./homepage-pictures/truist.jpg"
 import capnogaps from "./homepage-pictures/capnogaps.jpg"
@@ -23,7 +23,7 @@ export default function HomePage() {
      </header>
 
       <div className="truist-wrapper">
-        <section className="truist-container" onClick={() => navigate("/truist")}>
+        <section className="truist-container" onClick={() => navigate("/truist-one")}>
           <img src={truist} alt="Truist One View Notification Discovery" className="truist-picture" />
           <div className="info">
             <h1 className="noti">Truist One View Notification Discovery <div className="date">2023</div></h1>
@@ -33,7 +33,7 @@ export default function HomePage() {
       </div>
 
     <div className="ford-wrapper">
-      <section className="ford-container" onClick={() => navigate("/ford")}>
+      <section className="ford-container" onClick={() => navigate("/reimagine-homepage")}>
         <div  className="info">
         <h1 className="noti">Reimagine Homepage & Vehicle Finder <div className="date">2023</div></h1>
         <p className="aboutnoti">Ford Motor Company</p>
@@ -43,7 +43,7 @@ export default function HomePage() {
     </div>
 
     <div className="capnogaps-wrapper">
-      <section className="capnogaps-container" onClick={() => navigate("/caps")}>
+      <section className="capnogaps-container" onClick={() => navigate("/caps-no-gaps")}>
         <img src={capnogaps} alt="Truist One View Notification Discovery" className="capnogaps-picture" />
         <div className="info">
           <h1 className="noti">Caps No Gaps - Freelance Project <div className="date">2022</div></h1>
@@ -53,7 +53,7 @@ export default function HomePage() {
     </div>
 
      <div className="homedeportspring-wrapper">
-      <section className="homedeportspring-container" onClick={() => navigate("/hdspring")}>
+      <section className="homedeportspring-container" onClick={() => navigate("/major-homepage-event")}>
         <div  className="info">
         <h1 className="noti">Major Event Homepage<div className="date">2022</div></h1>
         <p className="aboutnoti">The Home Depot</p>
@@ -63,7 +63,7 @@ export default function HomePage() {
     </div>
 
     <div className="proofofconcept-wrapper">
-      <section className="proofofconcept-container" onClick={() =>navigate("/concept")}>
+      <section className="proofofconcept-container" onClick={() =>navigate("/proof-of-concept")}>
         <img src={proofofconcept} alt="Truist One View Notification Discovery" className="proofofconcept-picture" />
         <div className="info">
           <h1 className="noti">Proof of Concept Projects <div className="date">2018</div></h1>
@@ -73,7 +73,7 @@ export default function HomePage() {
     </div>
 
     <div className="diamonds-wrapper">
-      <section className="diamonds-container" onClick={() => navigate("/diamonds")}>
+      <section className="diamonds-container" onClick={() => navigate("/freelance")}>
         <div  className="info">
         <h1 className="noti">Freelance Projects<div className="date">2018</div></h1>
         <p className="aboutnoti">Freelance</p>
@@ -83,7 +83,7 @@ export default function HomePage() {
     </div>
 
     <div className="cocacola-wrapper">
-      <section className="cocacola-container" onClick={() => navigate("/cola")}>
+      <section className="cocacola-container" onClick={() => navigate("/internal-projects")}>
         <img src={cocacola} alt="Truist One View Notification Discovery" className="cocacola-picture" />
         <div className="info">
           <h1 className="noti">Internal Projects<div className="date">2014</div></h1>

@@ -32,16 +32,16 @@ span{
   font-size: 16px;
 }
 
-.trupic{
+.trupic, .ClickableImage{
   padding-top: 4rem;
 }
 
-.trupicctn{
+.trupicctn, .ClickableImage{
   display: flex;
   justify-content: center;
 }
 
-.truistpicpage{
+.truistpicpage, .ClickableImage{
   max-width: 90%;
   margin: 0 auto;
 }

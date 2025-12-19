@@ -12,6 +12,7 @@ import meeting2 from"./meeting-2.jpg"
 import redcross from"./redcross.jpg"
 import transpo from"./transpo.jpg"
 import divi from "../truist/divider.jpg"
+import ClickableImage from "../../assets/components/ClickableImage.jsx"
 
 
 
@@ -26,7 +27,7 @@ export default function Cola() {
         <h1>Internal Projects</h1>
         <p>UX Internship to UX Contractor</p>
         <div className="headphoto">
-            <img src={main}  className="mainbannercoc"/>
+            <ClickableImage src={main} alt="header picture" />
         </div>
       </header>
     <img src={divi} className="coladivi" />
@@ -47,9 +48,9 @@ export default function Cola() {
 
         </div>
         <div className="imgctnconnect">
-            <img src={c401k} className="c401k"/>
-            <img src={c401k1} className="c401k" />
-            <img src={connect} className="c401k"/>
+            <ClickableImage src={c401k} alt="401k" />
+            <ClickableImage src={c401k1} alt="401k" />
+           <ClickableImage src={connect} alt="internal" />
         </div>
       </section>
       <img src={divi} className="coladivi" />
@@ -68,8 +69,8 @@ export default function Cola() {
           </p>
         </div>
         <div className="mobility">
-            <img src={ios7} className="mios" />
-            <img src={ios72} className="mios"/>
+            <ClickableImage src={ios7} alt="Mobility Site desktop" />
+            <ClickableImage src={ios72} alt="Mobility Site mobile" />
         </div>
       </section>
  <img src={divi} className="coladivi" />
@@ -85,8 +86,8 @@ export default function Cola() {
             intranet.
           </p>
           <div className="newsctn">
-            <img src={news} className="news"/>
-            <img src={news2} className="news"/>
+            <ClickableImage src={news} alt="internal news" />
+            <ClickableImage src={news2} alt="internal news" />
           </div>
         </div>
       </section>
@@ -107,12 +108,12 @@ export default function Cola() {
           </p>
           <div className="sinag">
             <div className="first">
-            <img src={meeting} className="news1"/>
-            <img src={meeting2} className="news2"/>
+            <ClickableImage src={meeting} alt="digital sinage" />
+            <ClickableImage src={meeting2} alt="digital sinage" />
             </div>
             <div className="second">
-            <img src={redcross} className="news3"/>
-            <img src={transpo} className="news4"/>
+            <ClickableImage src={redcross} alt="digital sinage" />
+            <ClickableImage src={transpo} alt="digital sinage" />
             </div>
           </div>
         </div>

@@ -1,104 +1,75 @@
-/* CSS (HamburgerMenu.css)
-z-index: 1000;
+.hamburger-btn {
+  display: none;
+}
+
+/* Hamburger button */
+.hamburger-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* Fullscreen overlay */
+.fullscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  z-index: 9999;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Close button */
+.close-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* Centered menu links */
+.menu-links {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  text-align: center;
+}
+
+.menu-links a {
+  font-size: 2.5rem;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.menu-links a:hover {
+  opacity: 0.6;
 }
 
 
-.nav-inner {
-max-width: 1100px;
-margin: 0 auto;
-padding: 1rem 1.25rem;
-display: flex;
-align-items: center;
-justify-content: space-between;
+@media (max-width: 768px) {
+  .hamburger-btn {
+    display: block;
+  }
 }
 
-
-.logo {
-font-weight: 600;
-font-size: 1.1rem;
-}
-
-
-/* Hamburger */
-.hamburger {
-width: 28px;
-height: 20px;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-background: none;
-border: none;
-cursor: pointer;
-}
-
-
-.hamburger span {
-height: 2px;
-width: 100%;
-background: #111;
-transition: all 0.3s ease;
-}
-
-
-.hamburger.open span:nth-child(1) {
-transform: translateY(9px) rotate(45deg);
-}
-
-
-.hamburger.open span:nth-child(2) {
-opacity: 0;
-}
-
-
-.hamburger.open span:nth-child(3) {
-transform: translateY(-9px) rotate(-45deg);
-}
-
-
-/* Menu */
-.nav-menu {
-position: fixed;
-top: 64px;
-right: -100%;
-width: 220px;
-height: calc(100vh - 64px);
-background: #fff;
-display: flex;
-flex-direction: column;
-padding: 2rem 1.5rem;
-gap: 1.25rem;
-transition: right 0.3s ease;
-box-shadow: -10px 0 30px rgba(0,0,0,0.05);
-}
-
-
-.nav-menu.show {
-right: 0;
-}
-
-
-.nav-menu a {
-text-decoration: none;
-color: #111;
-font-size: 1rem;
-}
-
-
-/* Desktop */
-@media (min-width: 768px) {
-.hamburger {
-display: none;
-}
-
-
-.nav-menu {
-position: static;
-height: auto;
-width: auto;
-flex-direction: row;
-padding: 0;
-box-shadow: none;
-gap: 2rem;
-right: 0;
-}
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
 }

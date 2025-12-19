@@ -11,6 +11,9 @@ import bottom2 from "./bottom2.jpg"
 import bottom3 from "./bottom3.jpg"
 import brekdown from"./breakdown.jpg"
 import colors from "./colors.jpg"
+import ClickableImage from "../../assets/components/ClickableImage.jsx"
+
+
 
 export default function Caps() {
 
@@ -19,7 +22,7 @@ export default function Caps() {
             <h1 className="felance">Caps No Gaps - Freelance Project</h1>
             <p className="freelancep">Confidence Club, an Australian online retailer, wanted to launch a new program that would allow CAPS (Continence Aids Payment Scheme) Medicare recipients to use their government funds to subscribe for six to twelve months of continence supplies (e.g., bladder control pads, protective underwear/pull-ups, etc.).</p>
             <div className="cappicctn">
-                <img src={caps}  className="capsheadpic"/>
+                <ClickableImage src={caps} alt="caps no gaps banner" />
             </div>
 
             <section classname="design">
@@ -30,7 +33,7 @@ export default function Caps() {
                 <div className="designctn">
 
                 <div className="stickynote">
-                    <img src={sticky} className="sticky"/>
+                    <ClickableImage src={sticky} alt="sticky notes" />
                 </div>
                 
                 <div className="research-cap">
@@ -58,37 +61,37 @@ export default function Caps() {
                 </div>
 
                 <div className="devpic">
-                    <img src={multi} className="multi"/>
+                    <ClickableImage src={multi} alt="Design and Development" />
                 </div>
             </section>
 
             <section className="picsection1">
                 <div className="picctn">
-                <img src={capnogapdail} className="picsection"/>
-                <img src={capnogap} className="picsection"/>
-                <img src={capnogapeveryday} className="picsection"/>
-                <img src={sidebar} className="picsection"/>
+                <ClickableImage src={capnogapdail} alt="daily picks" />
+                <ClickableImage src={capnogap} alt="when to start" />
+                <ClickableImage src={capnogapeveryday} alt="choose what you need" />
+                <ClickableImage src={sidebar} alt="choose what you need mobile" />
                 </div>
             </section>
 
             <section className="picsection2ctn">
                 <div className="picctn2">
-                <img src={bottom1} className="picsection2"/>
-                <img src={bottom2} className="picsection2"/>
-                <img src={bottom3} className="picsection2"/>
+                 <ClickableImage src={bottom1} alt="choose what you need mobile" />
+                 <ClickableImage src={bottom2} alt="choose what you need mobile" />
+                 <ClickableImage src={bottom3} alt="choose what you need mobile" />
                 </div>
             </section>
 
             <section className="breakdown-cap">
                 <div className="breakdownpic">  
                     <div>
-                    <img src={brekdown}  className="brekdown"/>
+                     <ClickableImage src={brekdown} alt="the breakdown" />
                     <p className="picdis">Illustrate more use cases that the developer may need.</p>
                     </div>
 
 
                     <div className="picdis">
-                    <img src={colors}  className="brekdown"/>
+                     <ClickableImage src={colors} alt="choose what color" />
                     <p>Advised client on web accessibility for new brand colors.</p>
                     </div >
                 </div>

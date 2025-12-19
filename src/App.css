@@ -94,34 +94,7 @@ main {
   background-color: transparent;
 }
 
-.hamburger {
-  display: none;
-  font-size: 1.8rem;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-@media (max-width: 768px) {
-  /* Show hamburger */
-  .hamburger {
-    display: block;
-  }
-
-  /* Hide links by default */
-  .nav-links {
-    display: none;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    background: white;
-    flex-direction: column;
-    width: 200px;
-    padding: 1rem;
-  }
-
-  /* Show links ONLY when open */
-  .nav-links.open {
-    display: flex;
-  }
+.hamburger span{
+  color: #191919;
+  border: #191919;
 }

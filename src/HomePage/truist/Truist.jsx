@@ -14,6 +14,7 @@ import saythinkfeeldo from "./saythinkfeeldo.jpg"
 import insights from "./insights.jpg"
 import video from"./creative-cloud.mp4"
 import divi from "./divider.jpg"
+import ClickableImage from "../../assets/components/ClickableImage.jsx"
 
 
 
@@ -30,7 +31,7 @@ export default function Truist() {
 
             <div className="trupic">
                 <div className="trupicctn">
-                    <img src={truist} className="truistpicpage"/>
+                    <ClickableImage src={truist} alt="Image A" />
                 </div>
             </div>
 
@@ -69,7 +70,7 @@ export default function Truist() {
                 </div>
                 
                 <div className="piccenter">
-                 <img src={alerttask} className="alerttaskpic" />
+                 <ClickableImage src={alerttask} alt="key areas" />
                  </div>
 
                 </section>
@@ -80,7 +81,8 @@ export default function Truist() {
 
                 <section className="process">
                     <div className="processctn">
-                    <img  src={process} className="processpic"/>
+                    <ClickableImage src={process} alt="key areas" />
+                    
                     </div>
                 </section>
             <div className="summary-wrap">
@@ -131,7 +133,7 @@ export default function Truist() {
             <section className="research ">
                 <h1 className="researchp">After thorough research and understanding our clients and competitors, I've established these <span>guiding principles</span> to act as a compass, guiding decisions throughout the design process.</h1>
                 <div className="research-ctn">
-                <img src={Howdoestheuser} className="Howdoestheuserpic" />
+                <ClickableImage src={Howdoestheuser} alt="process" />
                 </div>
 
                 <div classname="systemconsiderations">
@@ -154,11 +156,11 @@ export default function Truist() {
             <section className="firstdraft">
                 <h3>First Draft</h3>
                 <div className="picdraftctn">
-                <img src={noticenter } className="firstdraftpic" />
+                <ClickableImage src={noticenter} alt="notification center" />
           
             
             
-                <img src={design} className="designthinkingpic" />
+                <ClickableImage src={design} alt="design thinking" />
                 </div>
             </section>
 
@@ -230,9 +232,9 @@ export default function Truist() {
                 </div>
 
                 <div className="focuspictures">
-                    <img src={toast} className="toast" />
-                    <img src={textmessage} className="textmessage"/>
-                    <img src={quickapprove} className="quickapprove"/>
+                    <ClickableImage src={toast} alt="notification card" />
+                    <ClickableImage src={textmessage} alt="text message" />
+                    <ClickableImage src={quickapprove} alt="quick approve" />
                 </div>
                 <div className="videosctn">
                 <video controls width="100%" src={video} />
@@ -316,10 +318,10 @@ export default function Truist() {
                 <p className="researchp">Before touching base with our UX Research partners, my manager, Dean Nguyen, set up an Airtable research template for us. It helps us keep track of our research questions, assumptions, opportunities, findings, and factual statements in a clear and organized manner. This ensures we stay focused and effectively address our design assumptions.</p>
                 <section className="airtablepics">
                     <div className="two">
-                        <img src={twocolumn} className="two"/>
+                        <ClickableImage src={twocolumn} alt="research" />
                     </div>
                     <div className="one">
-                       <img src={whatcats} className="one"/>
+                       <ClickableImage src={whatcats} alt="research questions" />
                     </div>
                 </section>
             </section>
@@ -327,7 +329,7 @@ export default function Truist() {
 
             <section className="stdfj">
                 <div className="saythink">
-                    <img src={saythinkfeeldo} className="saythinkfeeldo" />
+                    <ClickableImage src={saythinkfeeldo} alt="empathy map" />
                     <p className="empa">An empathy map was created for each participant.</p>
                 </div>
                 <div className="mapsctn">
@@ -366,7 +368,7 @@ export default function Truist() {
 
             <section className="insight">
                 <div className="insightctn">
-                    <img src={insights} className="insights"/>
+                    <ClickableImage src={insights} alt="insights" />
                 </div>
             </section>
 

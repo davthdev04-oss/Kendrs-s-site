@@ -1,18 +1,18 @@
 import { createBrowserRouter, RouterProvider, Outlet, NavLink } from "react-router-dom";
-import About from "./About/About.jsx";
-import Contactme from "./Contact/Contactme.jsx"
+import About from "./about/About.jsx";
+import Contactme from "./contact/Contactme.jsx"
 import "./App.css"
-import HomePage from "./HomePage/HomePage.jsx"
+import HomePage from "./homePage/HomePage.jsx"
 import KendraLogo from "./assets/Components/Kendra-logo.jpg"
-import "./assets/Components/kendra-logo.css";
+import "./assets/components/kendra-logo.css";
 import Submit from "./Submit/Submit.jsx"
-import Truist from "./HomePage/truist/Truist.jsx"
-import Ford from "./HomePage/ford/Ford.jsx"
-import Caps from "./HomePage/cap/Caps.jsx"
-import HDSpring from "./HomePage/hdspring/HDSpring.jsx"
-import Concept from "./HomePage/concept/Concept.jsx"
-import Diamons from "./HomePage/diamonds/Diamonds.jsx"
-import Cola from "./HomePage/cola/Cola.jsx"
+import Truist from "./homePage/truist/Truist.jsx"
+import Ford from "./homePage/ford/Ford.jsx"
+import Caps from "./homePage/caps/Caps.jsx"
+import HDSpring from "./homePage/major-event/HDSpring.jsx"
+import Concept from "./homepage/proof-of-concept/Concept.jsx"
+import Diamons from "./homepage/freelance/Diamonds.jsx"
+import Cola from "./homePage/internal-projects/Cola.jsx"
 import { useLocation } from "react-router-dom";
 import BackToTop from "./assets/Components/BackToTop.jsx";
 import "./assets/Components/backtotop.css";
@@ -33,15 +33,7 @@ function Layout() {
     <>
   <header className="Header">
       <nav className="nav-bar">
-        {/* Hamburger (mobile only via CSS) */}
-        <button
-          className="hamburger"
-          onClick={() => setMenuOpen(prev => !prev)}
-          aria-label="Toggle navigation"
-        >
-          ☰
-        </button>
-
+       <HamburgerMenu />
         {/* Nav links */}
         <div className={`nav-links ${menuOpen ? "open" : ""}`}>
           <NavLink to="/" className="nav-link" onClick={() => setMenuOpen(false)}>
@@ -103,13 +95,13 @@ const router = createBrowserRouter([
       { path: "/about", element: <About /> },     // About page content
       { path: "/contactme", element: <Contactme />}, // Contact Page 
       { path: "/submit", element: <Submit />}, // Submited Page
-      { path: "/truist", element: <Truist />}, // Truist Page
-      { path: "/ford", element: <Ford />}, //Ford Page
-      { path: "/caps", element: <Caps />}, // Capsnogaps Page
-      { path: "/hdspring", element: <HDSpring />}, //HD-spring Page
-      { path: "/concept", element: <Concept />}, //Concept Page
-      { path: "/diamonds", element: <Diamons />}, //Diamonds Page
-      { path: "/cola", element: <Cola />}, // Cola Page
+      { path: "/truist-one", element: <Truist />}, // Truist Page
+      { path: "/reimagine-homepage", element: <Ford />}, //Ford Page
+      { path: "/caps-no-gaps", element: <Caps />}, // Capsnogaps Page
+      { path: "/major-homepage-event", element: <HDSpring />}, //HD-spring Page
+      { path: "/proof-of-concept", element: <Concept />}, //Concept Page
+      { path: "/freelance", element: <Diamons />}, //Diamonds Page
+      { path: "/internal-projects", element: <Cola />}, // Cola Page
     
     
     

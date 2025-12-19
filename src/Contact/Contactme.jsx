@@ -5,6 +5,18 @@ import Divider from "../assets/Components/aboutline.jsx";
 export default function Contactme() {
   const navigate = useNavigate();
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Check if form is valid (HTML required fields)
+    if (e.target.checkValidity()) {
+      navigate("/submit");
+    } else {
+      // Show browser validation messages
+      e.target.reportValidity();
+    }
+  };
+
   return (
     <main className="contactme-page">
       <section>
@@ -13,7 +25,7 @@ export default function Contactme() {
       </section>
 
       <section className="input">
-        <form className="contact-form">
+        <form className="contact-form" onSubmit={handleSubmit}>
 
           <label htmlFor="name" className="name-label">Name *</label>
           <input
@@ -21,26 +33,27 @@ export default function Contactme() {
             id="name"
             placeholder="Name"
             className="input-name"
+            required
           />
 
           <label htmlFor="email" className="email-label">Email *</label>
           <input
-            type="text"
+            type="email"
             id="email"
             placeholder="Email"
             className="input-email"
+            required
           />
 
           <label htmlFor="txt-area" className="text-input">Leave A Message *</label>
-          <textarea id="txt-area" className="text-area"></textarea>
+          <textarea
+            id="txt-area"
+            className="text-area"
+            placeholder="Your message"
+            required
+          ></textarea>
 
-          <button
-            className="submit"
-            onClick={(e) => {
-              e.preventDefault();
-              navigate("/submit");
-            }}
-          >
+          <button type="submit" className="submit">
             Submit
           </button>
 

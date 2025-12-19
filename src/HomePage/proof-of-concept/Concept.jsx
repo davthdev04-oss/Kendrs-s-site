@@ -9,6 +9,9 @@ import onegal from "./onegal.jpg"
 import specifications from "./specifications.jpg"
 import text from "./text.jpg"
 import divi from "../truist/divider.jpg"
+import ClickableImage from "../../assets/components/ClickableImage.jsx"
+
+
 
 export default function Concept() {
 
@@ -27,11 +30,7 @@ export default function Concept() {
       {/* ========== PROJECT 1 ========= */}
       <section className="project-section">
         {/* Hero Image */}
-        <img
-          src={headerpic}
-          alt="Project 1 overview"
-          className="w-full"
-        />
+        <ClickableImage src={headerpic} alt="header picture" />
       <img src={divi} className="concept-divi" />  
         <h2>Online Military Discount Experience</h2>
         <h3>
@@ -45,8 +44,8 @@ export default function Concept() {
 
         {/* Photo Grid */}
         <div className="photo-grid">
-          <img src={discount} alt="Project 1 screen A" className="discount" />
-          <img src={threecolumn} alt="Project 1 screen B" classNAme="threecolumn" />
+          <ClickableImage src={discount} alt="military discount" />
+           <ClickableImage src={threecolumn} alt="military discount" />
         </div>
 
         <div className="info">
@@ -71,11 +70,11 @@ export default function Concept() {
         </p>
 
         <div className="photo-gridpaint">
-          <img src={paint} alt="Paint experience screen A" className="gridpaint"/>
-          <img src={paint2} alt="Paint experience screen B" className="gridpaint" />
-          <img src={bedroom} alt="Paint experience screen C" className="gridpaint" />
-          <img src={onegal} alt="Paint experience screen C" className="gridpaint" />
-          <img src={specifications} alt="Paint experience screen C" className="gridpaint" />
+           <ClickableImage src={paint} alt="paint experience 1" />
+          <ClickableImage src={paint2} alt="paint experience 2" />
+          <ClickableImage src={bedroom} alt="paint experience 3" />
+          <ClickableImage src={onegal} alt="paint experience 4" />
+          <ClickableImage src={specifications} alt="paint experience 5" />
         </div>
 
       <ul className="abtpaintctn">
@@ -109,7 +108,7 @@ export default function Concept() {
         </p>
 
         <div className="photo-grid">
-          <img src={text} alt="Text reorder flow" />
+          <ClickableImage src={text} alt="Subscription & Text Reorder Opt-in" />
         </div>
 
         <p className="pend">

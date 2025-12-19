@@ -4,6 +4,7 @@ import windows from "./windows.jpg"
 import coach from "./coach.jpg"
 import diamonds from "./diamonds.jpg"
 import divi from "../truist/divider.jpg"
+import ClickableImage from "../../assets/components/ClickableImage.jsx"
 
 
 export default function Diamonds() {
@@ -20,7 +21,7 @@ export default function Diamonds() {
       {/* Project Section */}
       <section className="projectsdia">
           <div className="project-image">
-            <img src={headerpicdia} className="headerpicdia" />
+            <ClickableImage src={headerpicdia} alt="header picture" />
           </div>
         <img src={divi} className="divi-diamonds" />
         <section className="diamondstty">
@@ -31,7 +32,7 @@ export default function Diamonds() {
               generate a quote.
             </p>
              <div className="project-imagewindows">
-            <img src={windows} className="windows" />
+            <ClickableImage src={windows} alt="windows before and after" />
             </div>
 
             <ul className="dialist">
@@ -56,7 +57,7 @@ export default function Diamonds() {
               mobile to simplify and improve shopping.
             </p>
             <div className="project-imagewindows">
-            <img src={diamonds} className="diamonds" />
+            <ClickableImage src={diamonds} alt="header picture" className="diamonds" />
             </div>
 
             <ul className="dialist">
@@ -78,7 +79,7 @@ export default function Diamonds() {
               across the app.
             </p>
             <div className="project-image">
-            <img src={coach} className="coach"/>
+            <ClickableImage src={coach} alt="coaching app wireframe and desgin" />
           </div>
             <ul className="dialist">
               <li>Sketches</li>
