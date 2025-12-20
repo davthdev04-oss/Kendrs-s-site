@@ -2,16 +2,16 @@ import { createBrowserRouter, RouterProvider, Outlet, NavLink } from "react-rout
 import About from "./About/About.jsx";
 import Contactme from "./Contact/Contactme.jsx"
 import "./App.css"
-import HomePage from "./HomePage/HomePage.jsx";
+import HomePage from "./Homepage/HomePage.jsx";
 import KendraLogo from "./assets/components/kendra-logo.jpg"
 import Submit from "./Submit/Submit.jsx"
-import Truist from "./HomePage/Truist/Truist.jsx"
-import Ford from "./HomePage/Ford/Ford.jsx"
-import Caps from "./HomePage/Caps/Caps.jsx"
-import HDSpring from "./HomePage/Major-event/HDSpring.jsx"
-import Concept from "./HomePage/Proof-of-concept/Concept.jsx"
-import Diamons from "./HomePage/Freelance/Diamonds.jsx"
-import Cola from "./HomePage/Internal-projects/Cola.jsx"
+import Truist from "./Homepage/Truist/Truist.jsx"
+import Ford from "./Homepage/Ford/Ford.jsx"
+import Caps from "./Homepage/Caps/Caps.jsx"
+import HDSpring from "./Homepage/Major-event/HDSpring.jsx"
+import Concept from "./Homepage/Proof-of-concept/Concept.jsx"
+import Diamons from "./Homepage/Freelance/Diamonds.jsx"
+import Cola from "./Homepage/Internal-projects/Cola.jsx"
 import { useLocation } from "react-router-dom";
 import BackToTop from "./assets/components/BackToTop.jsx";
 import "./assets/Components/backtotop.css";
