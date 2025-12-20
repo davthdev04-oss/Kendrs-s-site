@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "./Contactme.css";
-import Divider from "../assets/Components/aboutline.jsx";
+import Divider from "../Assets/Components/aboutline.jsx";
 
 export default function Contactme() {
   const navigate = useNavigate();

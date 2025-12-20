@@ -9,7 +9,7 @@ import onegal from "./onegal.jpg"
 import specifications from "./specifications.jpg"
 import text from "./text.jpg"
 import divi from "../Truist/divider.jpg"
-import ClickableImage from "../../assets/components/ClickableImage.jsx"
+import ClickableImage from "../../Assets/Components/ClickableImage.jsx"
 
 
 

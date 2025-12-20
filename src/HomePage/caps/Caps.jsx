@@ -11,7 +11,7 @@ import bottom2 from "./bottom2.jpg"
 import bottom3 from "./bottom3.jpg"
 import brekdown from"./breakdown.jpg"
 import colors from "./colors.jpg"
-import ClickableImage from "../../assets/components/ClickableImage.jsx"
+import ClickableImage from "../../Assets/Components/ClickableImage.jsx"
 
 
 

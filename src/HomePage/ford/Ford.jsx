@@ -9,7 +9,7 @@ import customize from "./customize.jpg"
 import matchnearyou from "./matchnearyou.jpg"
 import matchnearyou1 from "./matchnearyou1.jpg"
 import divi from "../Truist/divider.jpg"
-import ClickableImage from "../../assets/components/ClickableImage.jsx"
+import ClickableImage from "../../Assets/Components/ClickableImage.jsx"
 
 
 

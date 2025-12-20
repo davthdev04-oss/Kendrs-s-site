@@ -4,7 +4,7 @@ import windows from "./windows.jpg"
 import coach from "./coach.jpg"
 import diamonds from "./diamonds.jpg"
 import divi from "../Truist/divider.jpg"
-import ClickableImage from "../../assets/components/ClickableImage.jsx"
+import ClickableImage from "../../Assets/Components/ClickableImage.jsx"
 
 
 export default function Diamonds() {
