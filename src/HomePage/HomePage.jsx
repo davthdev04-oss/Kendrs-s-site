@@ -5,11 +5,10 @@ import "./HomePage.css";
 import truist from "./homepage-pictures/truist.jpg"
 import capnogaps from "./homepage-pictures/capnogaps.jpg"
 import homedeportspring from "./homepage-pictures/homedeport-spring.jpg"
-import ford from "./homepage-pictures/ford.jpg"
+import ford from "./homepage-pictures/Ford.jpg"
 import proofofconcept from "./homepage-pictures/proofofconcept.jpg"
 import cocacola from "./homepage-pictures/coca-cola.jpg"
 import diamonds from "./homepage-pictures/diamonds.jpg"
-
 
 export default function HomePage() {
         
