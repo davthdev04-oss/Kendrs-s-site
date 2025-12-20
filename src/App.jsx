@@ -3,8 +3,7 @@ import About from "./About/About.jsx";
 import Contactme from "./Contact/Contactme.jsx"
 import "./App.css"
 import HomePage from "./HomePage/HomePage.jsx";
-import KendraLogo from "./assets/Components/Kendra-logo.jpg"
-import "./assets/components/kendra-logo.css";
+import KendraLogo from "./assets/components/Kendra-logo.jpg"
 import Submit from "./Submit/Submit.jsx"
 import Truist from "./HomePage/Truist/Truist.jsx"
 import Ford from "./HomePage/Ford/Ford.jsx"
@@ -14,7 +13,7 @@ import Concept from "./HomePage/Proof-of-concept/Concept.jsx"
 import Diamons from "./HomePage/Freelance/Diamonds.jsx"
 import Cola from "./HomePage/Internal-projects/Cola.jsx"
 import { useLocation } from "react-router-dom";
-import BackToTop from "./assets/Components/BackToTop.jsx";
+import BackToTop from "./assets/components/BackToTop.jsx";
 import "./assets/Components/backtotop.css";
 import  "./assets/Components/hamburger.css"
 import HamburgerMenu from "./assets/Components/hamburger.jsx"
