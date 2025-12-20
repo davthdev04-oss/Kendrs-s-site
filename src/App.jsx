@@ -2,8 +2,8 @@ import { createBrowserRouter, RouterProvider, Outlet, NavLink } from "react-rout
 import About from "./About/About.jsx";
 import Contactme from "./Contact/Contactme.jsx"
 import "./App.css"
-import HomePage from "./Homepage/HomePage.jsx";
-import KendraLogo from "./assets/components/kendra-logo.jpg"
+import HomePage from "./HomePage/HomePage.jsx";
+import KendraLogo from "./assets/components/kendra-logo.jpg";
 import Submit from "./Submit/Submit.jsx"
 import Truist from "./Homepage/Truist/Truist.jsx"
 import Ford from "./Homepage/Ford/Ford.jsx"
