@@ -16,9 +16,8 @@ import { useLocation } from "react-router-dom";
 import BackToTop from "./Assets/Components/BackToTop.jsx";
 import "./Assets/Components/backtotop.css";
 import  "./Assets/Components/hamburger.css"
-import HamburgerMenu from "./Assets/Components/hamburger.jsx"
+import HamburgerMenu from "./Assets/Components/Hamburger.jsx"
 import { useState } from "react"
-
 
 
 
