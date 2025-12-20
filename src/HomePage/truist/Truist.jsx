@@ -14,7 +14,7 @@ import saythinkfeeldo from "./saythinkfeeldo.jpg"
 import insights from "./insights.jpg"
 import video from"./creative-cloud.mp4"
 import divi from "./divider.jpg"
-import ClickableImage from "../../Assets/Components/ClickableImage.jsx"
+import ClickableImage from "../../Assets_temp/Components_temp/ClickableImage.jsx"
 
 
 
