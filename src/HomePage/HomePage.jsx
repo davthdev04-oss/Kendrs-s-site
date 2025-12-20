@@ -1,6 +1,6 @@
 import  {useNavigate} from 'react-router-dom'
 import { HomePageTxt } from "../sitetext/SiteText.jsx";
-import { KendraStokes } from "../sitetext/SiteText.jsx"
+import { KendraStokes } from "../sitetext/SiteText.jsx";
 import "./HomePage.css";
 import truist from "./homepage-pictures/truist.jpg"
 import capnogaps from "./homepage-pictures/capnogaps.jpg"
