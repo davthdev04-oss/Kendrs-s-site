@@ -9,7 +9,7 @@ import dewalt from "./dewalt.jpg"
 import sod from "./scotts.jpg"
 import visits from "./visits.jpg"
 import divi from "../Truist/divider.jpg"
-import ClickableImage from "../../Assets_temp/Components_temp/ClickableImage.jsx"
+import ClickableImage from "../../Assets/Components/ClickableImage.jsx"
 
 
 

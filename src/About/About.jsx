@@ -2,8 +2,8 @@ import "./About.css"
 import {Aboutme} from "../SiteText/SiteText.jsx"
 import {Background} from "../SiteText/SiteText.jsx"
 import {BackgroundExtra} from "../SiteText/SiteText.jsx"
-import Fun from "../Assets_temp/Components_temp/Fun.jsx"
-import Divider from "../Assets_temp/Components_temp/aboutline.jsx"
+import Fun from "../Assets/Components/Fun.jsx"
+import Divider from "../Assets/Components/aboutline.jsx"
 
 
 export default function About() {

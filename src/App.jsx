@@ -3,7 +3,7 @@ import About from "./About/About.jsx";
 import Contactme from "./Contact/Contactme.jsx"
 import "./App.css"
 import HomePage from "./HomePage/HomePage.jsx";
-import KendraLogo from "./Assets_temp/Components_temp/kendra-logo.jpg";
+import KendraLogo from "./Assets/Components/kendra-logo.jpg";
 import Submit from "./Submit/Submit.jsx"
 import Truist from "./Homepage/Truist/Truist.jsx"
 import Ford from "./Homepage/Ford/Ford.jsx"
@@ -13,10 +13,10 @@ import Concept from "./Homepage/Proof-of-concept/Concept.jsx"
 import Diamons from "./Homepage/Freelance/Diamonds.jsx"
 import Cola from "./Homepage/Internal-projects/Cola.jsx"
 import { useLocation } from "react-router-dom";
-import BackToTop from "./Assets_temp/Components_temp/BackToTop.jsx";
-import "./Assets_temp/Components_temp/backtotop.css";
-import  "./Assets_temp/Components_temp/hamburger.css"
-import HamburgerMenu from "./Assets_temp/Components_temp/hamburger.jsx"
+import BackToTop from "./Assets/Components/BackToTop.jsx";
+import "./Assets/Components/backtotop.css";
+import  "./Assets/Components/hamburger.css"
+import HamburgerMenu from "./Assets/Components/hamburger.jsx"
 import { useState } from "react"
 
 
