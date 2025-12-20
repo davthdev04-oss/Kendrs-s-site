@@ -3,7 +3,7 @@ import About from "./About/About.jsx";
 import Contactme from "./Contact/Contactme.jsx"
 import "./App.css"
 import HomePage from "./HomePage/HomePage.jsx";
-import KendraLogo from "./assets/components/Kendra-logo.jpg"
+import KendraLogo from "./assets/components/kendra-logo.jpg"
 import Submit from "./Submit/Submit.jsx"
 import Truist from "./HomePage/Truist/Truist.jsx"
 import Ford from "./HomePage/Ford/Ford.jsx"
